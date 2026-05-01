@@ -21,9 +21,12 @@
             </div>
         </div>
         
-        <div class="mt-8">
-            <a href="{{ route('polis.index') }}" class="btn btn-primary rounded-xl">
+        <div class="mt-8 flex gap-3">
+            <a href="{{ route('pasien.daftar') }}" class="btn btn-primary rounded-xl">
                 <i class="fas fa-notes-medical mr-2"></i> Daftar Periksa Baru
+            </a>
+            <a href="{{ route('pasien.riwayat') }}" class="btn btn-outline rounded-xl">
+                <i class="fas fa-clock-rotate-left mr-2"></i> Riwayat Pemeriksaan
             </a>
         </div>
     </div>
